@@ -29,7 +29,7 @@ class Navbar extends Component {
           Projetos
         </Link>
         <a
-          href="https://www.linkedin.com/in/vitormcardoso/"
+          href="https://www.instagram.com/vitorcaardoso_/"
           target="_blank"
           rel="noreferrer"
           className="ml-3"
@@ -41,7 +41,7 @@ class Navbar extends Component {
           />
         </a>
         <a
-          href="https://www.instagram.com/vitorcaardoso_/"
+          href="https://www.linkedin.com/in/vitormcardoso/"
           target="_blank"
           rel="noreferrer"
         >
