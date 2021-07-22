@@ -8,8 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <div
-        style={{ display: "flex", alignItems: "center", justifyContent:"center" }}
-        className="box-shadow bg-light py-3 fixed-top"
+        className="d-flex align-items-center justify-content-center box-shadow bg-light py-3 fixed-top"
       >
         <Link style={{ textDecoration: "none" }} className="mr-3 ml-3" to="/">
           Página Inicial

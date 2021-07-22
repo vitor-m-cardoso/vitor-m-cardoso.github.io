@@ -5,11 +5,17 @@ class Home extends Component {
   render() {
     return (
       <div className="d-flex text-white bg-light ajust-margin home-component justify-content-center align-items-center">
-        <div style={{textAlign:"center"}}>
-          <h1 className="display-4">Vitor Cardoso.</h1>
-          <p className="h2">Desenvolvedor Web.</p>
-          <p className="h5">Estudante de desenvolvimento de Software na Trybe e</p>
-          <p className="h5">apaixonado por tecnologia.</p>
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center">
+              <h1 className="display-4">Vitor Cardoso.</h1> 
+            </div>
+            <div className="col text-center">
+              <p className="h3">Desenvolvedor Web Full-Stack.</p>
+              <p className="h4">Estudante de desenvolvimento de Software na Trybe e apaixonado por tecnologia.</p>
+            </div>
+
+          </div>
         </div>
       </div>
     )
