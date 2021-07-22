@@ -1,46 +1,45 @@
 import React, { Component } from 'react';
 import './css/Components.css';
 import myphoto from './img/myphoto.jpeg'
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
+import bootstrapIcon from './img/icons/bootstrapIcon.png'
+import cssIcon from './img/icons/css3Icon.png'
+import gitIcon from './img/icons/gitIcon.png'
+import htmlIcon from './img/icons/html5Icon.png'
+import javaScriptIcon from './img/icons/javaScriptIcon.png'
+import linuxIcon from './img/icons/linuxIcon.png'
+import reactIcon from './img/icons/reactIcon.png'
+import reduxIcon from './img/icons/reduxIcon.svg'
 
 class About extends Component {
   render() {
     return (
       <div className="d-flex bg-light ajust-margin home-component justify-content-center align-items-center">
-        <div className="d-flex text-white">
-          <div className="ml-3">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="col-12 col-md-3 d-flex justify-content-center">
             <img
               src={myphoto}
               style={{width: "200px", height: "200px", borderRadius:"100%"}}
               alt="Foto de perfil"
             />
-          </div>
-          <div className="ml-3" style={{width:"28rem"}}>
-            <h3>Olá, eu sou o Vitor Cardoso!</h3>
-            <p>
-              Tenho 23 anos e sou de Curitiba, Paraná. Onde atualmente resido.
-              Sou Desenvolvedor Front-End e estudante de Desenvolvimento Web na Trybe. Meu maior objetivo sempre foi trabalhar com tecnologia e programação.
-              Completamente apaixonado por música e no meu tempo livre amo tocar violão.
-            </p>
-            <Accordion defaultActiveKey="0">
-              <Card className="bg-secondary">
-                <Accordion.Toggle as={Card.Header} eventKey="0">
-                  Hard-Skills:
-                </Accordion.Toggle>
-                <Accordion.Collapse eventKey="0">
-                  <Card.Body>Linux, Unix e Bash, Git e Github, HTML5 e CSS3, JavascriptES6 e Lógica de Programação, Testes Unitários, Requisições API, Testes automatizados com Jest, Bootstrap, React e Redux.</Card.Body>
-                </Accordion.Collapse>
-              </Card>
-              <Card className="bg-secondary">
-                <Accordion.Toggle as={Card.Header} eventKey="1">
-                  Soft-Skills:
-                </Accordion.Toggle>
-                <Accordion.Collapse eventKey="1">
-                  <Card.Body>Comunicação, Facilidade com trabalho em equipe, Gestão de tempo e prioridade, Aprender a aprender.</Card.Body>
-                </Accordion.Collapse>
-              </Card>
-            </Accordion>
+            </div>
+            <div className="col-12 col-md-5 text-white">
+              <h3>Olá, eu sou o Vitor Cardoso!</h3>
+              <p>
+                Tenho 23 anos e sou de Curitiba, Paraná. Onde atualmente resido.
+                Sou Desenvolvedor Front-End e estudante de Desenvolvimento Web na Trybe. Meu maior objetivo sempre foi trabalhar com tecnologia e programação.
+                Completamente apaixonado por música e no meu tempo livre amo tocar violão.
+              </p>
+              <p className="h5">Linguagens e ferramentas:</p>
+              <img src={linuxIcon} alt="linux icon" style={{width: "40px"}} />
+              <img src={gitIcon} alt="git icon" style={{width: "40px"}} />
+              <img src={cssIcon} alt="css3 icon" style={{width: "40px"}} />
+              <img src={htmlIcon} alt="html5 icon" style={{width: "40px"}} />
+              <img src={javaScriptIcon} alt="javaScript icon" style={{width: "40px"}} />
+              <img src={bootstrapIcon} alt="bootstrap icon" style={{width: "40px"}} />
+              <img src={reactIcon} alt="react icon" style={{width: "40px"}} />
+              <img src={reduxIcon} alt="redux icon" style={{width: "40px"}} />
+            </div>
           </div>
         </div>
       </div>

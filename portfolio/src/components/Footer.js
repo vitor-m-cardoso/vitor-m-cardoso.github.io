@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="bg-dark text-white">
-        <div className="container py-4">
+        <div className="container py-3">
           <div className="row">
             <div className="col-md-3 col-6">
               <h4 className="h6">PÁGINAS</h4>
@@ -115,7 +115,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="bg-primary text-center py-3">
+        <div className="bg-primary text-center py-2">
           <p className="mb-0">Vitor Cardoso © 2021. Todos os direitos reservados.</p>
         </div>
       </footer>
