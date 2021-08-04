@@ -12,9 +12,7 @@ class Home extends Component {
             </div>
             <div className="col text-center">
               <p className="h3">Desenvolvedor Web Full-Stack.</p>
-              {/* <p className="h4">Estudante de desenvolvimento de Software na Trybe e apaixonado por tecnologia.</p> */}
             </div>
-
           </div>
         </div>
       </div>
