@@ -42,13 +42,14 @@ class Footer extends Component {
                 <li>
                   <a
                     style={ { textDecoration:"none" } }
-                    href="/#"
+                    href="https://vitor-m-cardoso.github.io/project-pixel-art/"
                     target="_blank"
+                    rel="noreferrer"
                   >
-                    Projeto 1
+                    Projeto Pixel Art
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     style={ { textDecoration:"none" } }
                     href="/#"
@@ -65,7 +66,7 @@ class Footer extends Component {
                   >
                     Projeto 3
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="col-md-4">
