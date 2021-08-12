@@ -49,24 +49,16 @@ class Footer extends Component {
                     Projeto Pixel Art
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    style={ { textDecoration:"none" } }
-                    href="/#"
-                    target="_blank"
-                  >
-                    Projeto 2
-                  </a>
-                </li>
                 <li>
                   <a
                     style={ { textDecoration:"none" } }
-                    href="/#"
+                    href="https://vitor-m-cardoso.github.io/project-caravan-bootstrap/"
                     target="_blank"
+                    rel="noreferrer"
                   >
-                    Projeto 3
+                    Projeto Caravan
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
             <div className="col-md-4">
