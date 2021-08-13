@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.36009d23.chunk.css",
-    "main.js": "/static/js/main.15969d6d.chunk.js",
-    "main.js.map": "/static/js/main.15969d6d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
-    "static/js/2.9d1cf1db.chunk.js": "/static/js/2.9d1cf1db.chunk.js",
-    "static/js/2.9d1cf1db.chunk.js.map": "/static/js/2.9d1cf1db.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.36009d23.chunk.css.map": "/static/css/main.36009d23.chunk.css.map",
-    "static/js/2.9d1cf1db.chunk.js.LICENSE.txt": "/static/js/2.9d1cf1db.chunk.js.LICENSE.txt",
-    "static/media/caravanProject.ca390773.png": "/static/media/caravanProject.ca390773.png",
-    "static/media/myphoto.ee68fdc0.jpg": "/static/media/myphoto.ee68fdc0.jpg",
-    "static/media/pixelArtProject.f1bb8223.png": "/static/media/pixelArtProject.f1bb8223.png",
-    "static/media/reduxIcon.7fe607aa.svg": "/static/media/reduxIcon.7fe607aa.svg"
+    "main.css": "/portfolio/static/css/main.3d01fb2c.chunk.css",
+    "main.js": "/portfolio/static/js/main.bc2a9131.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bc2a9131.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/css/2.081f420c.chunk.css": "/portfolio/static/css/2.081f420c.chunk.css",
+    "static/js/2.56908d7f.chunk.js": "/portfolio/static/js/2.56908d7f.chunk.js",
+    "static/js/2.56908d7f.chunk.js.map": "/portfolio/static/js/2.56908d7f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/portfolio/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.3d01fb2c.chunk.css.map": "/portfolio/static/css/main.3d01fb2c.chunk.css.map",
+    "static/js/2.56908d7f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.56908d7f.chunk.js.LICENSE.txt",
+    "static/media/caravanProject.ca390773.png": "/portfolio/static/media/caravanProject.ca390773.png",
+    "static/media/gamaGitProject.d6f33957.png": "/portfolio/static/media/gamaGitProject.d6f33957.png",
+    "static/media/myphoto.ee68fdc0.jpg": "/portfolio/static/media/myphoto.ee68fdc0.jpg",
+    "static/media/pixelArtProject.f1bb8223.png": "/portfolio/static/media/pixelArtProject.f1bb8223.png",
+    "static/media/reduxIcon.7fe607aa.svg": "/portfolio/static/media/reduxIcon.7fe607aa.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ebc510a.js",
+    "static/js/runtime-main.bcd5af5a.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.9d1cf1db.chunk.js",
-    "static/css/main.36009d23.chunk.css",
-    "static/js/main.15969d6d.chunk.js"
+    "static/js/2.56908d7f.chunk.js",
+    "static/css/main.3d01fb2c.chunk.css",
+    "static/js/main.bc2a9131.chunk.js"
   ]
 }
