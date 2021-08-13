@@ -59,6 +59,16 @@ class Footer extends Component {
                     Projeto Caravan
                   </a>
                 </li>
+                <li>
+                  <a
+                    style={ { textDecoration:"none" } }
+                    href="https://vitor-m-cardoso.github.io/gama-git/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Projeto Gama Git
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-md-4">

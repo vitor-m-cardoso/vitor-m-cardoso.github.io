@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/portfolio">
     <App />
   </BrowserRouter>,
   document.getElementById('root')

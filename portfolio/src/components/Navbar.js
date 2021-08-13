@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import githubIcon from "./img/githubIcon.png";
 import instagramIcon from "./img/instagramIcon.png";
 import linkedinIcon from "./img/linkedinIcon.png";
+import './css/Components.css'
 
 class Navbar extends Component {
   render() {
@@ -31,7 +32,7 @@ class Navbar extends Component {
           href="https://www.instagram.com/vitorcaardoso_/"
           target="_blank"
           rel="noreferrer"
-          className="ml-3"
+          className="ml-3 icon-size2"
         >
           <img
             src={instagramIcon}
@@ -43,6 +44,7 @@ class Navbar extends Component {
           href="https://www.linkedin.com/in/vitormcardoso/"
           target="_blank"
           rel="noreferrer"
+          className="icon-size2"
         >
           <img
             src={linkedinIcon}
@@ -54,6 +56,7 @@ class Navbar extends Component {
           href="https://github.com/vitor-m-cardoso/"
           target="_blank"
           rel="noreferrer"
+          className="icon-size2"
         >
           <img
             src={githubIcon}
