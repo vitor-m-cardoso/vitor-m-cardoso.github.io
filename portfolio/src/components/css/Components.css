@@ -37,3 +37,8 @@
   transform: scale(1.06);
   transition: .4s;
 }
+
+.ajust-img {
+  height: 100%;
+  width: 100%;
+}

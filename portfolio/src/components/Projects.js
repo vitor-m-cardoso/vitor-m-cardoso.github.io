@@ -11,17 +11,17 @@ class Home extends Component {
       <>
         <Navbar />
         <div className="d-flex bg-light ajust-margin home-component justify-content-center align-items-center text-white">
-          <Row xs={6} md={3} className="g-4 animeLeft">
+          <Row xs={6} md={4} className="g-4 animeLeft">
             {data.map(({image, title, text, projectLink, gitHubLink}, idx) => (
               <Col key={ idx }>
                 <Card 
-                  style={{ width: '18rem', backgroundColor: 'rgb(28, 31, 46)' }}
+                  style={{ width: '15rem', backgroundColor: 'rgb(28, 31, 46)' }}
                   className="text-center align-items-center zoom-cardImage"
                 >
                   <Card.Img variant="top" src={ image }/>
                   <Card.Body>
                     <Card.Title>{ title }</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{fontSize:".9rem"}}>
                       { text }
                     </Card.Text>
                   </Card.Body>

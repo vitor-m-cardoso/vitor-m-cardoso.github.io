@@ -42,6 +42,26 @@ class Footer extends Component {
                 <li>
                   <a
                     style={ { textDecoration:"none" } }
+                    href="https://vitor-m-cardoso.github.io/recipes-app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Projeto Recipes App
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style={ { textDecoration:"none" } }
+                    href="https://vitor-m-cardoso.github.io/gama-git/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Projeto Gama Git
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style={ { textDecoration:"none" } }
                     href="https://vitor-m-cardoso.github.io/project-pixel-art/"
                     target="_blank"
                     rel="noreferrer"
@@ -57,16 +77,6 @@ class Footer extends Component {
                     rel="noreferrer"
                   >
                     Projeto Caravan
-                  </a>
-                </li>
-                <li>
-                  <a
-                    style={ { textDecoration:"none" } }
-                    href="https://vitor-m-cardoso.github.io/gama-git/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Projeto Gama Git
                   </a>
                 </li>
               </ul>
