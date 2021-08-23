@@ -16,7 +16,7 @@ class Home extends Component {
                 <h1 className="display-4">Vitor Cardoso.</h1> 
               </div>
               <div className="col text-center">
-                <p className="h3">Desenvolvedor Web Full-Stack.</p>
+                <p className="h3">Desenvolvedor Web Front-end.</p>
               </div>
             </div>
           </div>
